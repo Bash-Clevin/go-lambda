@@ -1,0 +1,7 @@
+version: '3.9'
+services:
+  go-lambda:
+    build: .
+    ports:
+      - '9000:8080'
+    restart: always
